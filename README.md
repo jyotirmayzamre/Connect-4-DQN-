@@ -1,0 +1,1 @@
+# Using Reinforcement Learning to train an agent to play Connect-4 (Midterm Project)
