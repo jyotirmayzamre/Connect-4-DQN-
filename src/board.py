@@ -1,5 +1,7 @@
 import numpy as np
 from IPython.display import display
+import pandas as pd
+
 
 '''
 Class for the connect 4 game:

@@ -1,12 +1,13 @@
 import torch.optim as optim
 from torch import nn
 import torch
-from board import C4
-from net import DQN
-from expr import Expr_Replay
+from src.board import C4
+from src.net import DQN
+from src.expr import Expr_Replay
 import math
 from tqdm import tqdm
 import random
+import numpy as np
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 

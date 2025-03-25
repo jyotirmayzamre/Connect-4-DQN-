@@ -1,7 +1,8 @@
 #Simulate a game against the trained bot
 import torch
-from board import C4
-from net import DQN
+from src.board import C4
+from src.net import DQN
+import numpy as np
 
 env = C4()
 model = DQN()
