@@ -111,7 +111,6 @@ class Agent:
 
     ''' 
     Function for training our main NN. For each episode, we will randomize who makes the first move so that our agent has experience with both situations.
-    Need to rewrite a lot
     '''
     def train(self):
         for i in tqdm(range(self.episodes), desc='Processing'):
